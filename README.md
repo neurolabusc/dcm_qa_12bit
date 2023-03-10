@@ -10,4 +10,9 @@
 
 The image below shows the correct conversion of series 2,3,4 respectively. Note that bright bands a seen in series 3, while bright regions are clipped in series 4.
 
-<img src="drawing.jpg" alt="drawing" width="316" height="70"/>
+<div style="width: 200%; height: 200%">
+  
+  ![](.DICOM12bit.png)
+  
+</div>
+
