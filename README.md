@@ -12,7 +12,7 @@ The image below shows the correct conversion of series 2,3,4 respectively. Note 
 
 <div style="width: 200%; height: 200%">
   
-  ![](.DICOM12bit.png)
+  ![](./DICOM12bit.png)
   
 </div>
 
