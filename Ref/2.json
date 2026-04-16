@@ -10,13 +10,14 @@
 	"ProcedureStepDescription": "Research^Rorden",
 	"SoftwareVersions": "syngo MR 2006T 4VB12T",
 	"MRAcquisitionType": "2D",
+	"StudyDescription": "Research^Rorden",
 	"SeriesDescription": "FMRI_AX_ASC",
 	"ProtocolName": "FMRI_AX_ASC",
 	"ScanningSequence": "SE\\EP",
 	"SequenceVariant": "SK",
 	"ScanOptions": "FS",
 	"SequenceName": "*epfid2d1_64",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"],
+	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC", "MAGNITUDE"],
 	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 2,
 	"AcquisitionTime": "11:04:32.975000",
@@ -43,6 +44,7 @@
 	"PhaseResolution": 1,
 	"ReceiveCoilName": "HeadMatrix",
 	"PulseSequenceDetails": "%SiemensSeq%\\ep2d_bold",
+	"ConsistencyInfo": "N4_VB12T_LATEST_20050804",
 	"MatrixCoilMode": "SENSE",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
@@ -95,6 +97,7 @@
 		0.995725,
 		0.0923706	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["func","_acq-epfid2_dir-AP_run-2_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20230308"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
