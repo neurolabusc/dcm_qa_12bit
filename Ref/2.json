@@ -4,6 +4,7 @@
 	"ImagingFrequency": 123.249226,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "TrioTim",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "35131",
 	"StationName": "mrc35131",
 	"PatientPosition": "HFS",
@@ -15,6 +16,7 @@
 	"ProtocolName": "FMRI_AX_ASC",
 	"ScanningSequence": "SE\\EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Spin Echo EPI",
 	"ScanOptions": "FS",
 	"SequenceName": "*epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC", "MAGNITUDE"],
@@ -28,7 +30,6 @@
 	"EchoTime": 0.03,
 	"RepetitionTime": 2.2,
 	"FlipAngle": 90,
-	"PartialFourier": 1,
 	"BaseResolution": 64,
 	"ShimSetting": [
 		10684,
@@ -51,6 +52,8 @@
 	"PhaseEncodingSteps": 64,
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 2230,
 	"PhaseEncodingDirection": "j-",
 	"SliceTiming": [
@@ -99,5 +102,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-epfid2_dir-AP_run-2_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
